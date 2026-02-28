@@ -1,84 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 195" width="580">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 180" width="580">
   <defs>
     <style>
-      .m { font-family: 'Courier New', Courier, monospace; }
-      .cr { animation: sweep 0.42s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }
-      .c0 { animation-delay: 0.10s; }
-      .c1 { animation-delay: 0.55s; }
-      .c2 { animation-delay: 0.80s; }
-      .c3 { animation-delay: 1.05s; }
-      .c4 { animation-delay: 1.30s; }
-      .c5 { animation-delay: 1.75s; }
-      .c6 { animation-delay: 2.10s; }
-      .c7 { animation-delay: 2.40s; }
-      @keyframes sweep  { from { width: 0px; } to { width: 580px; } }
-      @keyframes blink  { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
-      @keyframes appear { from { opacity: 0; } to  { opacity: 1; } }
+      @font-face {
+        font-family: 'Lora';
+        src: url('data:font/truetype;base64,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') format('truetype');
+        font-weight: 700;
+      }
+      .f { font-family: 'Lora', Georgia, serif; }
+      .m { font-family: 'Courier New', monospace; }
     </style>
-    <clipPath id="cp0"><rect class="cr c0" x="0" y="0"   height="28"/></clipPath>
-    <clipPath id="cp1"><rect class="cr c1" x="0" y="0"   height="28"/></clipPath>
-    <clipPath id="cp2"><rect class="cr c2" x="0" y="0"   height="28"/></clipPath>
-    <clipPath id="cp3"><rect class="cr c3" x="0" y="0"   height="28"/></clipPath>
-    <clipPath id="cp4"><rect class="cr c4" x="0" y="0"   height="28"/></clipPath>
-    <clipPath id="cp5"><rect class="cr c5" x="0" y="0"   height="28"/></clipPath>
-    <clipPath id="cp6"><rect class="cr c6" x="0" y="0"   height="28"/></clipPath>
-    <clipPath id="cp7"><rect class="cr c7" x="0" y="0"   height="28"/></clipPath>
+
+    <clipPath id="c0"><rect x="0" y="0" width="0" height="180"><animate attributeName="width" from="0" to="580" dur="0.4s" begin="0.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c1"><rect x="0" y="0" width="0" height="180"><animate attributeName="width" from="0" to="580" dur="0.4s" begin="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="0" y="0" width="0" height="180"><animate attributeName="width" from="0" to="580" dur="0.6s" begin="1.1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="0" y="0" width="0" height="180"><animate attributeName="width" from="0" to="580" dur="0.4s" begin="1.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="0" y="0" width="0" height="180"><animate attributeName="width" from="0" to="580" dur="0.4s" begin="2.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="0" y="0" width="0" height="180"><animate attributeName="width" from="0" to="580" dur="0.4s" begin="2.6s" fill="freeze"/></rect></clipPath>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-soft">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="580" height="195" fill="#0d1117"/>
+  <rect width="580" height="180" fill="#060d0a"/>
 
-  <!-- Frame borders -->
-  <rect x="10" y="10" width="560" height="175" fill="none" stroke="#1a3d2b" stroke-width="0.8"/>
-  <rect x="13" y="13" width="554" height="169" fill="none" stroke="#122d1f" stroke-width="0.4"/>
+  <!-- Subtle horizontal grid -->
+  <line x1="0" y1="90" x2="580" y2="90" stroke="#091a12" stroke-width="0.5"/>
 
-  <!-- Corner glyphs -->
-  <text x="15" y="25"  class="m" font-size="9" fill="#1e5c36" style="animation:appear 0.2s forwards 0.05s; opacity:0;">+--</text>
-  <text x="553" y="25" class="m" font-size="9" fill="#1e5c36" text-anchor="end" style="animation:appear 0.2s forwards 0.05s; opacity:0;">--+</text>
-  <text x="15"  y="178" class="m" font-size="9" fill="#1e5c36" style="animation:appear 0.2s forwards 2.55s; opacity:0;">+--</text>
-  <text x="553" y="178" class="m" font-size="9" fill="#1e5c36" text-anchor="end" style="animation:appear 0.2s forwards 2.55s; opacity:0;">--+</text>
+  <!-- Corner L-brackets -->
+  <polyline points="10,30 10,10 30,10" fill="none" stroke="#00ff88" stroke-width="1.2"/>
+  <polyline points="550,10 570,10 570,30" fill="none" stroke="#00ff88" stroke-width="1.2"/>
+  <polyline points="10,150 10,170 30,170" fill="none" stroke="#00ff88" stroke-width="1.2"/>
+  <polyline points="550,170 570,170 570,150" fill="none" stroke="#00ff88" stroke-width="1.2"/>
 
-  <!-- Top label: THE -->
-  <g clip-path="url(#cp0)">
-    <text x="290" y="37" class="m" font-size="9.5" fill="#2a6644" text-anchor="middle" letter-spacing="5">─ ─  T  H  E  ─ ─</text>
+  <!-- Top scan line -->
+  <g clip-path="url(#c0)">
+    <line x1="24" y1="28" x2="556" y2="28" stroke="#00ff88" stroke-width="0.6" filter="url(#glow-soft)"/>
   </g>
 
-  <!-- ASCII art: line 1 (brightest) -->
-  <g clip-path="url(#cp1)">
-    <text x="22" y="62" class="m" font-size="12" fill="#62c98b">_____  _  _ ___      ___   _   ___ ___   _   ___  _   _   _  _ </text>
+  <!-- THE — small, spaced -->
+  <g clip-path="url(#c1)">
+    <text x="290" y="54" class="f" font-size="11" font-weight="700" fill="#00aa55"
+          text-anchor="middle" letter-spacing="14">T H E</text>
   </g>
 
-  <!-- ASCII art: line 2 -->
-  <g clip-path="url(#cp2)">
-    <text x="22" y="78" class="m" font-size="12" fill="#4A9B6F">|_   _|| || | __|   / __|/_\  / __/ __| /_\ |   \|_ _/_\ | \| |</text>
+  <!-- CASCADIAN — large calligraphic with glow ghost -->
+  <g clip-path="url(#c2)">
+    <text x="293" y="112" class="f" font-size="46" font-weight="700" fill="none"
+          text-anchor="middle" stroke="#003322" stroke-width="1" letter-spacing="4">CASCADIAN</text>
+    <text x="290" y="110" class="f" font-size="46" font-weight="700" fill="#00ff88"
+          text-anchor="middle" letter-spacing="4" filter="url(#glow)">CASCADIAN</text>
   </g>
 
-  <!-- ASCII art: line 3 -->
-  <g clip-path="url(#cp3)">
-    <text x="22" y="94" class="m" font-size="12" fill="#3e8460">  | |  | __ | _|   | (__/ _ \ \__ \__ \/ _ \| |) || |/ _ \| .` |</text>
-  </g>
-
-  <!-- ASCII art: line 4 (dimmest) -->
-  <g clip-path="url(#cp4)">
-    <text x="22" y="110" class="m" font-size="12" fill="#2f6348">  |_|  |_||_|___|   \___/_/ \_\___/|___/_/ \_\|___/|___/_/ \_\_|\_|</text>
-  </g>
-
-  <!-- Blinking cursor after final line -->
-  <text x="519" y="110" class="m" font-size="12" fill="#4A9B6F" style="animation: blink 0.9s infinite 1.8s; opacity:0;">_</text>
-
-  <!-- Divider -->
-  <g clip-path="url(#cp5)">
-    <line x1="22" y1="126" x2="558" y2="126" stroke="#1a3d2b" stroke-width="0.6"/>
+  <!-- Divider with centre tick -->
+  <g clip-path="url(#c3)">
+    <line x1="24" y1="126" x2="210" y2="126" stroke="#003322" stroke-width="0.6"/>
+    <line x1="370" y1="126" x2="556" y2="126" stroke="#003322" stroke-width="0.6"/>
+    <rect x="274" y="121" width="32" height="10" fill="none" stroke="#003322" stroke-width="0.6"/>
   </g>
 
   <!-- Subtitle -->
-  <g clip-path="url(#cp6)">
-    <text x="290" y="146" class="m" font-size="9.5" fill="#2a6644" text-anchor="middle" letter-spacing="2">Self-Taught Developer  ·  Modder  ·  Musician  ·  PNW</text>
+  <g clip-path="url(#c4)">
+    <text x="290" y="146" class="m" font-size="8.5" fill="#00aa55"
+          text-anchor="middle" letter-spacing="3">DEV · MODDER · MUSICIAN · PNW</text>
   </g>
 
-  <!-- Footer tags -->
-  <g clip-path="url(#cp7)">
-    <text x="22"  y="168" class="m" font-size="8.5" fill="#1e5c36">[ github.com/TheCascadian ]</text>
-    <text x="558" y="168" class="m" font-size="8.5" fill="#1e5c36" text-anchor="end">[ PNW Independence Advocate ]</text>
+  <!-- Bottom scan line + cursor -->
+  <g clip-path="url(#c5)">
+    <line x1="24" y1="158" x2="556" y2="158" stroke="#00ff88" stroke-width="0.6" filter="url(#glow-soft)"/>
+    <rect x="24" y="162" width="7" height="10" fill="#00ff88">
+      <animate attributeName="opacity" values="0;1;1;0" dur="0.9s" begin="2.9s" repeatCount="indefinite"/>
+    </rect>
   </g>
 </svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 195" width="580">
+  <defs>
+    <style>
+      .m { font-family: 'Courier New', Courier, monospace; }
+      .cr { animation: sweep 0.42s cubic-bezier(0.4, 0, 0.2, 1) forwards; width: 0; }
+      .c0 { animation-delay: 0.10s; }
+      .c1 { animation-delay: 0.55s; }
+      .c2 { animation-delay: 0.80s; }
+      .c3 { animation-delay: 1.05s; }
+      .c4 { animation-delay: 1.30s; }
+      .c5 { animation-delay: 1.75s; }
+      .c6 { animation-delay: 2.10s; }
+      .c7 { animation-delay: 2.40s; }
+      @keyframes sweep  { from { width: 0px; } to { width: 580px; } }
+      @keyframes blink  { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+      @keyframes appear { from { opacity: 0; } to  { opacity: 1; } }
+    </style>
+    <clipPath id="cp0"><rect class="cr c0" x="0" y="0"   height="28"/></clipPath>
+    <clipPath id="cp1"><rect class="cr c1" x="0" y="0"   height="28"/></clipPath>
+    <clipPath id="cp2"><rect class="cr c2" x="0" y="0"   height="28"/></clipPath>
+    <clipPath id="cp3"><rect class="cr c3" x="0" y="0"   height="28"/></clipPath>
+    <clipPath id="cp4"><rect class="cr c4" x="0" y="0"   height="28"/></clipPath>
+    <clipPath id="cp5"><rect class="cr c5" x="0" y="0"   height="28"/></clipPath>
+    <clipPath id="cp6"><rect class="cr c6" x="0" y="0"   height="28"/></clipPath>
+    <clipPath id="cp7"><rect class="cr c7" x="0" y="0"   height="28"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="580" height="195" fill="#0d1117"/>
+
+  <!-- Frame borders -->
+  <rect x="10" y="10" width="560" height="175" fill="none" stroke="#1a3d2b" stroke-width="0.8"/>
+  <rect x="13" y="13" width="554" height="169" fill="none" stroke="#122d1f" stroke-width="0.4"/>
+
+  <!-- Corner glyphs -->
+  <text x="15" y="25"  class="m" font-size="9" fill="#1e5c36" style="animation:appear 0.2s forwards 0.05s; opacity:0;">+--</text>
+  <text x="553" y="25" class="m" font-size="9" fill="#1e5c36" text-anchor="end" style="animation:appear 0.2s forwards 0.05s; opacity:0;">--+</text>
+  <text x="15"  y="178" class="m" font-size="9" fill="#1e5c36" style="animation:appear 0.2s forwards 2.55s; opacity:0;">+--</text>
+  <text x="553" y="178" class="m" font-size="9" fill="#1e5c36" text-anchor="end" style="animation:appear 0.2s forwards 2.55s; opacity:0;">--+</text>
+
+  <!-- Top label: THE -->
+  <g clip-path="url(#cp0)">
+    <text x="290" y="37" class="m" font-size="9.5" fill="#2a6644" text-anchor="middle" letter-spacing="5">─ ─  T  H  E  ─ ─</text>
+  </g>
+
+  <!-- ASCII art: line 1 (brightest) -->
+  <g clip-path="url(#cp1)">
+    <text x="22" y="62" class="m" font-size="12" fill="#62c98b">_____  _  _ ___      ___   _   ___ ___   _   ___  _   _   _  _ </text>
+  </g>
+
+  <!-- ASCII art: line 2 -->
+  <g clip-path="url(#cp2)">
+    <text x="22" y="78" class="m" font-size="12" fill="#4A9B6F">|_   _|| || | __|   / __|/_\  / __/ __| /_\ |   \|_ _/_\ | \| |</text>
+  </g>
+
+  <!-- ASCII art: line 3 -->
+  <g clip-path="url(#cp3)">
+    <text x="22" y="94" class="m" font-size="12" fill="#3e8460">  | |  | __ | _|   | (__/ _ \ \__ \__ \/ _ \| |) || |/ _ \| .` |</text>
+  </g>
+
+  <!-- ASCII art: line 4 (dimmest) -->
+  <g clip-path="url(#cp4)">
+    <text x="22" y="110" class="m" font-size="12" fill="#2f6348">  |_|  |_||_|___|   \___/_/ \_\___/|___/_/ \_\|___/|___/_/ \_\_|\_|</text>
+  </g>
+
+  <!-- Blinking cursor after final line -->
+  <text x="519" y="110" class="m" font-size="12" fill="#4A9B6F" style="animation: blink 0.9s infinite 1.8s; opacity:0;">_</text>
+
+  <!-- Divider -->
+  <g clip-path="url(#cp5)">
+    <line x1="22" y1="126" x2="558" y2="126" stroke="#1a3d2b" stroke-width="0.6"/>
+  </g>
+
+  <!-- Subtitle -->
+  <g clip-path="url(#cp6)">
+    <text x="290" y="146" class="m" font-size="9.5" fill="#2a6644" text-anchor="middle" letter-spacing="2">Self-Taught Developer  ·  Modder  ·  Musician  ·  PNW</text>
+  </g>
+
+  <!-- Footer tags -->
+  <g clip-path="url(#cp7)">
+    <text x="22"  y="168" class="m" font-size="8.5" fill="#1e5c36">[ github.com/TheCascadian ]</text>
+    <text x="558" y="168" class="m" font-size="8.5" fill="#1e5c36" text-anchor="end">[ PNW Independence Advocate ]</text>
+  </g>
+</svg>

@@ -54,6 +54,8 @@ Python-based GUI toolkit for generating and editing Hearts of Iron IV focus tree
 
 **Universal Compression**
 
+<a href="https://github.com/TheCascadian/HOI4FocusGUI"><img src="main icon.png" alt="HOI4 Focus GUI" width="340" /></a>
+
 A NeoForge Minecraft mod focused on compression mechanics. Available on Modrinth.
 
 <br/>

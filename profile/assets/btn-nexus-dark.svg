@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 23" width="80" height="23" shape-rendering="crispEdges" role="img" aria-label="Nexus Mods">
+<!-- Glyph outlines derived from the FontStruction "MS Sans Serif" by lou, CC BY-SA 3.0 -->
+<defs><linearGradient id="t"><stop offset="0" stop-color="#000080"/><stop offset="1" stop-color="#1084D0"/></linearGradient><path id="r100" d="M0 -1V-5H1V-1ZM1 0V-1H4V-5H1V-6H4V-9H5V0Z"/><path id="r101" d="M0 -1V-5H1V-4H4V-5H5V-3H1V-1ZM1 0V-1H4V0ZM1 -5V-6H4V-5ZM4 -1V-2H5V-1Z"/><path id="r111" d="M0 -1V-5H1V-1ZM1 0V-1H4V0ZM1 -5V-6H4V-5ZM4 -1V-5H5V-1Z"/><path id="r115" d="M0 -1V-2H1V-1ZM0 -4V-5H1V-4ZM1 0V-1H3V0ZM1 -3V-4H2V-3ZM1 -5V-6H3V-5ZM2 -2V-3H3V-2ZM3 -1V-2H4V-1ZM3 -4V-5H4V-4Z"/><path id="r117" d="M0 -1V-6H1V-1ZM1 0V-1H3V0ZM3 -1V-2H4V-6H5V0H4V-1Z"/><path id="r120" d="M0 0V-2H1V0ZM0 -4V-6H1V-4ZM1 -2V-4H3V-2ZM3 0V-2H4V0ZM3 -4V-6H4V-4Z"/><path id="r77" d="M0 0V-9H1V-7H2V-5H1V0ZM2 -3V-5H3V-3ZM3 -1V-3H4V-1ZM4 -3V-5H5V-3ZM5 -5V-7H6V-9H7V0H6V-5Z"/><path id="r78" d="M0 0V-9H1V-8H2V-6H1V0ZM2 -4V-6H3V-4ZM3 -3V-4H4V-3ZM4 -1V-3H5V-9H6V0H5V-1Z"/></defs>
+<rect x="0" y="0" width="80" height="23" fill="#3A3D3F"/>
+<rect x="0" y="0" width="79" height="1" fill="#8C9093"/>
+<rect x="0" y="0" width="1" height="22" fill="#8C9093"/>
+<rect x="0" y="22" width="80" height="1" fill="#000000"/>
+<rect x="79" y="0" width="1" height="23" fill="#000000"/>
+<rect x="1" y="1" width="77" height="1" fill="#5A5E61"/>
+<rect x="1" y="1" width="1" height="20" fill="#5A5E61"/>
+<rect x="1" y="21" width="78" height="1" fill="#1E2021"/>
+<rect x="78" y="1" width="1" height="21" fill="#1E2021"/>
+<g fill="#E6E6E6" transform="translate(0 15)"><use href="#r78" x="12"/><use href="#r101" x="19"/><use href="#r120" x="25"/><use href="#r117" x="30"/><use href="#r115" x="36"/><use href="#r77" x="43"/><use href="#r111" x="51"/><use href="#r100" x="57"/><use href="#r115" x="63"/></g>
+</svg>

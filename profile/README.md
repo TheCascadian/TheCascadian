@@ -1,0 +1,16 @@
+<div align="center">
+
+<a href="https://thecascadian.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/desktop-dark.svg" /><img src="assets/desktop-light.svg" alt="TheCascadian: Lead UI/UX Designer and Game Developer in the Pacific Northwest. Also known as Synphul Hero, HeroGuy46, and ProphetPNW. Languages: C, Python, JavaScript, TypeScript, Java, C++, Lua. Projects shown as folder windows. Hearts of Iron IV: HOI4 Focus GUI, HOI4 Modding Toolkit, The Tragic Timeline, Fall From Liberty, Washington 1936. Universal Mods: Universal Compression, Universal Armor (Core), Universal Ore Processing, Universal Pipes, Colony Simulation. Fallout 4: Completely Clean Commonwealth, Fallout 4 Mod Editor, NIF Level Editor, Vancouver 2287, Modular Road Tiles. Games: County, Corporate Enterprise Inc, CircuitForge, Hardware Simulator, Procedural RPG. Engines: Grand Strategy Engine, Terrific Terrain, Defective Engine, Grand Strategy Game. Apps and Tools: TheCascadian.github.io, wrektChat, Pixel Forge, StorageManager, MicroBrain, Soundboard." /></picture></a>
+
+<p>
+<a href="https://thecascadian.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-site-dark.svg" /><img src="assets/btn-site-light.svg" alt="Site" height="23" /></picture></a>
+<a href="https://github.com/TheCascadian/HOI4FocusGUI"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-focus-gui-dark.svg" /><img src="assets/btn-focus-gui-light.svg" alt="HOI4 Focus GUI" height="23" /></picture></a>
+<a href="https://github.com/TheCascadian/Universal-Compression"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-compression-dark.svg" /><img src="assets/btn-compression-light.svg" alt="Universal Compression" height="23" /></picture></a>
+<a href="https://modrinth.com/user/CascadianBuilder"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-modrinth-dark.svg" /><img src="assets/btn-modrinth-light.svg" alt="Modrinth" height="23" /></picture></a>
+<a href="https://www.nexusmods.com/fallout4/mods/94907"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-nexus-dark.svg" /><img src="assets/btn-nexus-light.svg" alt="Nexus Mods" height="23" /></picture></a>
+<a href="https://www.youtube.com/@SynphulHero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-youtube-dark.svg" /><img src="assets/btn-youtube-light.svg" alt="YouTube" height="23" /></picture></a>
+<a href="https://www.patreon.com/c/SynphulHero"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-patreon-dark.svg" /><img src="assets/btn-patreon-light.svg" alt="Patreon" height="23" /></picture></a>
+<a href="https://github.com/TheCascadian?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-repos-dark.svg" /><img src="assets/btn-repos-light.svg" alt="All Repositories" height="23" /></picture></a>
+</p>
+
+</div>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 23" width="75" height="23" shape-rendering="crispEdges" role="img" aria-label="Patreon">
+<!-- Glyph outlines derived from the FontStruction "MS Sans Serif" by lou, CC BY-SA 3.0 -->
+<defs><linearGradient id="t"><stop offset="0" stop-color="#000080"/><stop offset="1" stop-color="#1084D0"/></linearGradient><path id="r101" d="M0 -1V-5H1V-4H4V-5H5V-3H1V-1ZM1 0V-1H4V0ZM1 -5V-6H4V-5ZM4 -1V-2H5V-1Z"/><path id="r110" d="M0 0V-6H1V-5H2V-4H1V0ZM2 -5V-6H4V-5ZM4 0V-5H5V0Z"/><path id="r111" d="M0 -1V-5H1V-1ZM1 0V-1H4V0ZM1 -5V-6H4V-5ZM4 -1V-5H5V-1Z"/><path id="r114" d="M0 0V-6H2V-5H1V0Z"/><path id="r116" d="M0 -1V-8H1V-6H2V-5H1V-1ZM1 0V-1H2V0Z"/><path id="r80" d="M0 0V-9H5V-8H1V-5H5V-4H1V0ZM5 -5V-8H6V-5Z"/><path id="r97" d="M0 -1V-3H1V-1ZM1 0V-1H4V-3H1V-4H4V-5H5V0ZM1 -5V-6H4V-5Z"/></defs>
+<rect x="0" y="0" width="75" height="23" fill="#3A3D3F"/>
+<rect x="0" y="0" width="74" height="1" fill="#8C9093"/>
+<rect x="0" y="0" width="1" height="22" fill="#8C9093"/>
+<rect x="0" y="22" width="75" height="1" fill="#000000"/>
+<rect x="74" y="0" width="1" height="23" fill="#000000"/>
+<rect x="1" y="1" width="72" height="1" fill="#5A5E61"/>
+<rect x="1" y="1" width="1" height="20" fill="#5A5E61"/>
+<rect x="1" y="21" width="73" height="1" fill="#1E2021"/>
+<rect x="73" y="1" width="1" height="21" fill="#1E2021"/>
+<g fill="#E6E6E6" transform="translate(0 15)"><use href="#r80" x="19"/><use href="#r97" x="26"/><use href="#r116" x="32"/><use href="#r114" x="35"/><use href="#r101" x="38"/><use href="#r111" x="44"/><use href="#r110" x="50"/></g>
+</svg>
